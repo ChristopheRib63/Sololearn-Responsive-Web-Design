@@ -62,19 +62,65 @@ section {
 .feature img {
     width:40%;
 }
-
-/* -------- END FEATURE -------- */
 .features {
   background: #FFFFFF;
   color: #000000;
 }
+
+/* -------- END FEATURE -------- */
+
+
+/* -------- QUOTE -------- */
+
 .quote {
   background:#549DA0;
   color:#FFFFFF;
 }
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+}
+blockquote cite {
+    font-size: 16px;
+    font-style: italic;
+}  
+blockquote cite:before {
+    content: '-';
+    margin-right: 5px;
+}
+
+/* -------- END QUOTE -------- */
+
+/* -------- FOOTER -------- */
+
 footer {
-  background: #353535;
-  padding: 32px 0;
-  text-align: center;
-  color: #868686;
-} 
+    background: #353535;
+    padding: 32px 0;
+    text-align: center;
+    color: #868686;
+    font-size: 12px;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline-block;
+}
+footer li a {
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer li a:hover {
+    color: white;
+}
+/* -------- END FOOTER -------- */
